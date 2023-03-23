@@ -1,0 +1,24 @@
+.manager {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-right-width: 1px;
+  .overview {
+    height: 400px;
+    :global(.semi-tabs-bar) {
+      height: 40px;
+    }
+    :global(.semi-tabs-tab) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0 !important;
+      padding: unset;
+      width: 50%;
+      height: 100%;
+    }
+  }
+  .material {
+    flex: 1;
+  }
+}

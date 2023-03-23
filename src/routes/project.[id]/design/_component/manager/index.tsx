@@ -1,9 +1,9 @@
 import { Tabs, TabPane } from '@douyinfe/semi-ui';
 import styles from './index.module.less';
 
-const Sidebar: React.FC = () => {
+const Manager: React.FC = () => {
   return (
-    <div className={styles.sidebar}>
+    <div className={styles.manager}>
       <Tabs type="line" className={styles.overview}>
         <TabPane tab="页面总览" itemKey="page" className={styles.overviewBody}>
           页面列表
@@ -19,4 +19,4 @@ const Sidebar: React.FC = () => {
   );
 };
 
-export default Sidebar;
+export default Manager;
